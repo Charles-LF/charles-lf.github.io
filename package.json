@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "vuepress": "2.0.0-beta.26"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress-theme-oxygen-not-included": "^0.3.3"
+  }
+}

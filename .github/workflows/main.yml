@@ -28,8 +28,7 @@ jobs:
         with:
           # choose node.js version to use
           node-version: 18
-      - run: yarn add -g vuepress@2.0.0-beta.26
-      - run: yarn add vuepress-theme-oxygen-not-included@0.3.3
+      - run: yarn
       
       # run build script
       - name: Build VuePress site
